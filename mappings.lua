@@ -8,5 +8,15 @@ M.general = {
 }
 
 -- more keybinds!
+M.tabufline = {
+  n = {
+    ["<leader><tab>"] = {
+      function()
+        require("nvchad_ui.tabufline").tabuflinePrev()
+      end,
+      "goto prev buffer",
+    },
+  }
+}
 
 return M

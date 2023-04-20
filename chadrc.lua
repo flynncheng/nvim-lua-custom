@@ -5,11 +5,16 @@ local M = {}
 local highlights = require "custom.highlights"
 
 M.ui = {
-  theme = "onedark",
-  theme_toggle = { "onedark", "one_light" },
+  theme = "everforest",
+  theme_toggle = { "everforest", "chadracula" },
 
   hl_override = highlights.override,
   hl_add = highlights.add,
+
+  statusline = {
+    theme = "vscode",
+  },
+
 }
 
 M.plugins = "custom.plugins"
