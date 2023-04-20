@@ -7,7 +7,12 @@ M.general = {
   -- },
 }
 
--- more keybinds!
+M.disabled = {
+  n = {
+      ["<C-c>"] = "",
+  }
+}
+
 M.tabufline = {
   n = {
     ["<leader><tab>"] = {
