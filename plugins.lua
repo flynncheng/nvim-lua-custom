@@ -40,11 +40,7 @@ local plugins = {
 
   {
     "nvim-telescope/telescope.nvim",
-    opts = {
-      defaults = {
-        prompt_prefix = "  > ",
-      },
-    },
+    opts = overrides.telescope,
   },
 
   -- Install a plugin
